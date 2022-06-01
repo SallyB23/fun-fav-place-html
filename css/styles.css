@@ -15,6 +15,10 @@ nav {
     padding: 0;
     overflow: hidden;
     background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 nav li {
@@ -50,6 +54,10 @@ header {
 
 #places-header {
     background-image: url("../images/sydney-opera-house-at-night.jpg");
+}
+
+#things-to-do-header {
+    background-image: url("../images/ballooning.jpg")
 }
 
 section:not(.links) {
@@ -115,7 +123,7 @@ section a:hover {
     padding: 5%;
 }
 
-.sydney, .rainforest, .outback, .rottnest {
+.sydney, .rainforest, .outback, .rottnest, .camping, .carnivale, .freemantle-prison, .friendship-garden, .ballooning {
     padding: 0 5% 5%;
 }
 
